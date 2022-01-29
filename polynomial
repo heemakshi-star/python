@@ -1,0 +1,4 @@
+#Program to compute the value of a polynomial in x for some x
+x=int(input("Enter the value of X: "))
+y=(x**3)+(x**2)+(x+1)
+print("Value of the polynomial in x is : ",y)
