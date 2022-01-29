@@ -1,7 +1,8 @@
-# Program to computate the BMI of a person
-h=70
-w=80
-h=h*2.54/100
-h2=h*h
-b=w/h2
+#program to computate the BMI of a person by taking input from the user
+h=int(input("Height:"))
+w=int(input("Weight:"))
+#height in meters
+h=h*2.54/100 
+h=h*h
+b=w/h
 print(b)
