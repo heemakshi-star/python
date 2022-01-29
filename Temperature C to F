@@ -1,0 +1,6 @@
+#program to Print the temperature in F which is given in C
+#t1= temperature in degree C
+#t2= temperature in degree F
+t1=int(input("Enter the temperature in degree C: "))
+t2=(t1*9/5)+32
+print("Temperature in F is : ",t2)
