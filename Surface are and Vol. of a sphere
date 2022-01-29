@@ -1,0 +1,6 @@
+#program to compute the surface area and volume of a sphere by taking radius as input from the user
+r=int(input("Radius of the sphere: "))
+s=(4*(22/7))*(r*r)
+v=(4/3*(22/7))*(r*r*r)
+print("Surface area of the sphere is ",s )
+print("Volume of the sphere is ", v)
