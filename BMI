@@ -1,0 +1,7 @@
+# Program to computate the BMI of a person
+h=70
+w=80
+h=h*2.54/100
+h2=h*h
+b=w/h2
+print(b)
