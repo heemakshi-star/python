@@ -1,0 +1,7 @@
+#program to take input of two numbers and return the output as sum and product
+x=int(input("Enter the value of X:"))
+y=int(input("Enter the value of Y:"))
+s=(x+y)
+p=(x*y)
+print("Sum of the two numbers is : ", s)
+print("product of the two numbers is : ",p)
