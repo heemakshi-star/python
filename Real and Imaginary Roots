@@ -1,0 +1,18 @@
+#Program to find the real and imaginary roots of a quadratic equation
+a=int(input("Enter the value of a: "))
+b=int(input("Enter the value of b: "))
+c=int(input("Enter the value of c: "))
+temp=(b*b)-(4*a*c)
+print("Value of temp is : ", temp)
+if(temp>=0):
+    temp=temp**(1/2)
+    x1=(-b + temp)/(2*a)
+    x2=(-b - temp)/(2*a)
+    print("Real roots are : ", x1)
+    print("Imaginary roots are: ",x2)
+else:
+        print("It has imaginary roots")
+        xreal=-b/(2*a)
+        ximag=(-temp)**(1/2)/(2*a)
+        print("Real roots are : ", xreal)
+        print("Imaginary roots are : ",ximag)
