@@ -1,0 +1,7 @@
+#Compute the value of varaible y:
+x=float(input("Enter the value of X: "))
+if (x>=0):
+    y1=x+1
+    print("Value of Y is : ", y1)
+else:
+    print("Invalid imput, please enter a positive integer")
